@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
                     visible: s.buttonShouldBeVisible(),
                     child: FlatButton(
                       onPressed: (){
-                        s.nextStory(1);
+                       // s.nextStory(1);
                       setState(() {
                         s.nextStory(1);
                       });
@@ -77,7 +77,7 @@ class _MyAppState extends State<MyApp> {
                     child: FlatButton(
                       onPressed: (){
 
-                        s.nextStory(2);
+                        //s.nextStory(2);
                         setState(() {
                           s.nextStory(2);
                         });
