@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('images/pbc.jpg'),
-              fit:BoxFit.cover,
+              //fit:BoxFit.cover,
             ),
           ),
 
